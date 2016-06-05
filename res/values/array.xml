@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_entries">       
+    	<item>北京</item>
+    	<item>上海</item>
+    	<item>西安</item>
+    	<item>延安</item>
+    </string-array>
+    <string-array name="list_values">
+        <item>beijing</item>
+        <item>shanghai</item>
+        <item>xian</item>
+        <item>yanan</item>
+    </string-array>
+    <string-array name="list_defult">
+        <item>zhongguo</item>
+        <item>meiguo</item>
+        <item>yingguo</item>
+        <item>xiaoriben</item>
+    </string-array>
+</resources>

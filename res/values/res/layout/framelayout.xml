@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl"
+    android:foreground="@drawable/ic_launcher"
+    android:foregroundGravity="bottom|right"
+    android:measureAllChildren="true" >
+    <LinearLayout 
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="#f00"/>
+	<RelativeLayout 
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#0f0"/>
+	<FrameLayout 
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#00f"
+        />
+</FrameLayout>

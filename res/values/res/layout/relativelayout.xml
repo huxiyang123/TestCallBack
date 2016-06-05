@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- android:layout_alignParentLeft是否于父容器的左边对齐 -->
+    <!-- android:layout_alignParentRight是否于父容器的右边对齐 -->
+    <!-- android:layout_alignParentTop是否于父容器的上边对齐 -->
+    <!-- android:layout_alignParentBottom是否于底容器的左边对齐 -->
+
+
+    <!-- android:layout_centerHorizontal:位于父容器的水平中心 -->
+    <!-- android:layout_centerVertical:位于父容器的竖直中心 -->
+    <!-- android:layout_centerInParent:位于父容器的中心 -->
+
+
+    <!-- android:layout_above位于某个组件之上 -->
+    <!-- android:layout_toLeftOf位于某个组件之左 -->
+    <!-- android:layout_toRightOf位于某个组件之右 -->
+    <!-- android:layout_below位于某个组件之下 -->
+
+
+    <!-- android:layout_alignRight相对与兄弟组件的右边对齐 -->
+    <!-- android:layout_alignLeft相对与兄弟组件的右边对齐 -->
+    <!-- android:layout_alignTop相对与兄弟组件的右边对齐 -->
+    <!-- android:layout_alignBottom相对与兄弟组件的右边对齐 -->
+    <!-- android:layout_alignBaseline:与组件内容对齐 -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_marginBottom="45dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/textView1"
+        android:background="#ff0"
+        android:text="aaaaaaaaaaaa"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="112dp"
+        android:text="Text" />
+
+</RelativeLayout>

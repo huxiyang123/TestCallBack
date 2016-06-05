@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="ScreenTitle"
+    android:title="标题"
+    android:summary="标题说明"
+    >
+  <ListPreference 
+      android:key="listPref"
+      android:title="list标题"
+      android:entryValues="@array/list_values"
+      android:entries="@array/list_entries"
+      
+      /> 
+
+</PreferenceScreen>
